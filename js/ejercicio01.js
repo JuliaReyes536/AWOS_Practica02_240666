@@ -4,7 +4,7 @@ const style_console = `background: ${bg}; color:white; border-radius: 6px; paddi
 console.log("%c1.- Ejercicio 01: Declaración de Variables ",style_console);
 
 // 1. Declaración de variables utilizando el prefijo VAR
-var miNombre = "Salim";
+var miNombre = "Luis David";
 var misApellidos;
 
 console.warn("-- Declaración de Variables utilizando el prefijo VAR -- ");
@@ -14,12 +14,12 @@ console.log("El valor de la variable miNombre es =", miNombre);
 console.log("El valor de la variable misApellidos es =", misApellidos);
 //esto arroja un undefined dado que la variable no ha sido inicializada, es decir no se le ha asignado un valor que almacenar
 
-misApellidos = "Pérez Mejía"
+misApellidos = "Cruz Flores"
 // En este momento la variable ya tiene un valor almacenado por que al imprimirlo deberá mostrar dicho dato
 console.log("El valor de la variable misApellidos es =", misApellidos);
 
 //Para actualizar el valor de una variable previamente definida solo basta con igualar el nuevo valor 
-miNombre= "Salim Alejandro";
+miNombre= "Luis David";
 console.log("Hola, ", miNombre, misApellidos);
 
 
@@ -28,7 +28,7 @@ console.warn("-- Declaración de Variables utilizando el prefijo CONST -- ");
 
 /* La palabra reservada CONST nos permite a nivel memoria reservar espacio para almacenar datos de una constante que a diferencia de una VARIABLE esta no puede camibar su valor durante la ejecución del programa, de igual manera no se pueden declarar constantes sin obligatoriamente inicializarlas, es decir asignarles un valor específico, por ejemplo:*/
 
-const miMatricula = "24XXXX";
+const miMatricula = "240666";
 
 // Imprimir el valor de una constante
 console.log("El valor actual de la constante miMatricula es: ", miMatricula);
@@ -42,7 +42,7 @@ console.log("El valor actual de la constante miMatricula es: ", miMatricula);
 
 /* La palabra reservada LET en JavaScript nos permite declarar variables de una manrera muy similar a VAR, con la diferencia del alcance (SCOPE) de la misma, es decir aquellas variables declaradas con var tienen un alange global durante la ejecución y la let se limitan a funciones, ciclos o bloques de código , eliminando los valores almacenado una vez cumplen su función */
 
-var miFechaNacimiento = new Date("2010-10-25");
+var miFechaNacimiento = new Date("2006-07-11");
 
 function calcularEdad(fechaNacimiento)
 {
